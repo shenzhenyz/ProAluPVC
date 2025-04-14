@@ -1,0 +1,20 @@
+-- Script SQL pour cru00e9er la table clients
+
+CREATE TABLE IF NOT EXISTS clients (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    phone VARCHAR(20) DEFAULT NULL,
+    address TEXT DEFAULT NULL,
+    city VARCHAR(100) DEFAULT NULL,
+    postal_code VARCHAR(10) DEFAULT NULL,
+    country VARCHAR(100) DEFAULT 'France',
+    company VARCHAR(255) DEFAULT NULL,
+    notes TEXT DEFAULT NULL,
+    password VARCHAR(255) DEFAULT NULL,
+    status ENUM('active', 'inactive') DEFAULT 'active',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY (email)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

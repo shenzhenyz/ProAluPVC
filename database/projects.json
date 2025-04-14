@@ -1,0 +1,35 @@
+[
+    {
+        "user_id": 2,
+        "title": "R\u00e9novation fen\u00eatres salon",
+        "description": "Installation de 3 fen\u00eatres en aluminium",
+        "status": "in_progress",
+        "progress": 60,
+        "start_date": "2023-03-15",
+        "end_date": "2023-04-30",
+        "id": 1,
+        "created_at": "2025-04-10 20:52:11"
+    },
+    {
+        "user_id": 2,
+        "title": "Porte d'entr\u00e9e PVC",
+        "description": "Remplacement de la porte d'entr\u00e9e",
+        "status": "completed",
+        "progress": 100,
+        "start_date": "2023-02-10",
+        "end_date": "2023-02-25",
+        "id": 2,
+        "created_at": "2025-04-10 20:52:11"
+    },
+    {
+        "user_id": 2,
+        "title": "V\u00e9randa jardin",
+        "description": "Installation d'une v\u00e9randa de 20m\u00b2",
+        "status": "pending",
+        "progress": 10,
+        "start_date": "2023-05-01",
+        "end_date": "2023-06-15",
+        "id": 3,
+        "created_at": "2025-04-10 20:52:11"
+    }
+]

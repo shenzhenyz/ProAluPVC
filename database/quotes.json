@@ -1,0 +1,32 @@
+[
+    {
+        "user_id": 2,
+        "project_id": 1,
+        "title": "Fen\u00eatres en aluminium pour salon",
+        "description": "Fourniture et pose de 3 fen\u00eatres en aluminium double vitrage",
+        "amount": 2500,
+        "status": "approved",
+        "id": 1,
+        "created_at": "2025-04-10 20:52:11"
+    },
+    {
+        "user_id": 2,
+        "project_id": 2,
+        "title": "Porte d'entr\u00e9e en PVC",
+        "description": "Fourniture et pose d'une porte d'entr\u00e9e en PVC avec serrure 3 points",
+        "amount": 1200,
+        "status": "approved",
+        "id": 2,
+        "created_at": "2025-04-10 20:52:11"
+    },
+    {
+        "user_id": 2,
+        "project_id": 3,
+        "title": "V\u00e9randa de jardin 20m\u00b2",
+        "description": "Construction d'une v\u00e9randa de 20m\u00b2 avec toit en polycarbonate",
+        "amount": 8500,
+        "status": "pending",
+        "id": 3,
+        "created_at": "2025-04-10 20:52:11"
+    }
+]
